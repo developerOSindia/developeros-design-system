@@ -12,7 +12,7 @@ export interface FooterBannerProps {
 export const FooterBanner: React.FC<FooterBannerProps> = ({
   tagline = "Built with ❤️ by DeveloperOS",
   homeUrl = "https://developeros.in?utm_source=developeros_tools&utm_medium=footer_link&utm_campaign=ecosystem_referral",
-  toolsUrl = "https://tools.developeros.in?utm_source=developeros_tools&utm_medium=footer_link&utm_campaign=ecosystem_referral",
+  toolsUrl = "https://toolkit.developeros.in?utm_source=developeros_tools&utm_medium=footer_link&utm_campaign=ecosystem_referral",
   githubUrl = "https://github.com/developerOSindia",
   privacyUrl = "https://developeros.in/privacy?utm_source=developeros_tools&utm_medium=footer_link&utm_campaign=ecosystem_referral",
 }) => {

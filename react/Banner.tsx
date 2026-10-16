@@ -18,7 +18,7 @@ export const Banner: React.FC<BannerProps> = ({
   primaryCtaText = "Explore DeveloperOS",
   secondaryCtaText = "More Free Tools",
   primaryUrl = "https://developeros.in?utm_source=developeros_tools&utm_medium=main_banner&utm_campaign=ecosystem_referral",
-  secondaryUrl = "https://tools.developeros.in?utm_source=developeros_tools&utm_medium=secondary_cta&utm_campaign=tools_directory",
+  secondaryUrl = "https://toolkit.developeros.in?utm_source=developeros_tools&utm_medium=secondary_cta&utm_campaign=tools_directory",
 }) => {
   const displayHeading = toolName && heading === "Enjoying this free tool?" ? `Enjoying ${toolName}?` : heading;
 

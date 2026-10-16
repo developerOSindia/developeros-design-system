@@ -158,7 +158,7 @@ export const App: React.FC = () => {
               category="api"
               tags={["curl", "python", "http"]}
               status="active"
-              url="https://api.tools.developeros.in"
+              url="https://api.toolkit.developeros.in"
             />
             <ToolCard
               id="hasher"
@@ -167,7 +167,7 @@ export const App: React.FC = () => {
               category="security"
               tags={["hash", "sha256", "crypto"]}
               status="active"
-              url="https://crypto.tools.developeros.in"
+              url="https://crypto.toolkit.developeros.in"
             />
             <ToolCard
               id="json-yaml"
@@ -176,7 +176,7 @@ export const App: React.FC = () => {
               category="data"
               tags={["json", "yaml", "format"]}
               status="active"
-              url="https://data.tools.developeros.in"
+              url="https://data.toolkit.developeros.in"
             />
           </div>
         </section>

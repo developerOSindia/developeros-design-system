@@ -24,7 +24,7 @@ class TestBannerSystem(unittest.TestCase):
 
         brand = self.config["brand"]
         self.assertEqual(brand["home_url"], "https://developeros.in")
-        self.assertEqual(brand["tools_url"], "https://tools.developeros.in")
+        self.assertEqual(brand["tools_url"], "https://toolkit.developeros.in")
         self.assertEqual(brand["github_url"], "https://github.com/developerOSindia")
         self.assertEqual(brand["privacy_url"], "https://developeros.in/privacy")
 
@@ -42,7 +42,7 @@ class TestBannerSystem(unittest.TestCase):
         self.assertEqual(main["primary_cta"]["text"], "Explore DeveloperOS")
         self.assertEqual(main["secondary_cta"]["text"], "More Free Tools")
         self.assertEqual(main["primary_cta"]["url"], "https://developeros.in")
-        self.assertEqual(main["secondary_cta"]["url"], "https://tools.developeros.in")
+        self.assertEqual(main["secondary_cta"]["url"], "https://toolkit.developeros.in")
 
         # Variant 2: Compact Header
         compact = variants["compact_header"]
@@ -53,7 +53,7 @@ class TestBannerSystem(unittest.TestCase):
         footer = variants["footer"]
         self.assertIn("Built with ❤️ by DeveloperOS", footer["tagline"])
         self.assertEqual(footer["home_url"], "https://developeros.in")
-        self.assertEqual(footer["tools_url"], "https://tools.developeros.in")
+        self.assertEqual(footer["tools_url"], "https://toolkit.developeros.in")
 
     def test_utm_parameters_privacy(self):
         """Ensures UTM tracking parameters contain zero PII and zero tracking cookies."""

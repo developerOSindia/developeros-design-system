@@ -3,7 +3,7 @@
   "brand": {
     "name": "DeveloperOS",
     "home_url": "https://developeros.in",
-    "tools_url": "https://tools.developeros.in",
+    "tools_url": "https://toolkit.developeros.in",
     "github_url": "https://github.com/developerOSindia",
     "privacy_url": "https://developeros.in/privacy"
   },
@@ -23,7 +23,7 @@
       },
       "secondary_cta": {
         "text": "More Free Tools",
-        "url": "https://tools.developeros.in",
+        "url": "https://toolkit.developeros.in",
         "utm_campaign": "tools_directory",
         "utm_medium": "main_promotional_secondary"
       }
@@ -37,7 +37,7 @@
     "footer": {
       "tagline": "Built with ❤️ by DeveloperOS",
       "home_url": "https://developeros.in",
-      "tools_url": "https://tools.developeros.in",
+      "tools_url": "https://toolkit.developeros.in",
       "github_url": "https://github.com/developerOSindia",
       "privacy_url": "https://developeros.in/privacy",
       "subtext": "DeveloperOS Open-Source Tools Ecosystem • Licensed under MIT • Zero-Storage Privacy Guarantee"
