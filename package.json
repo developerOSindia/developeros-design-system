@@ -1,0 +1,10 @@
+{
+  "name": "@developeros/design-system",
+  "version": "1.0.0",
+  "description": "Design system tokens and branding schema for DeveloperOS tools",
+  "main": "styles.css",
+  "license": "MIT",
+  "scripts": {
+    "test": "node -e \"const tokens = require('./tokens.json'); console.log('Tokens valid JSON: ' + tokens.name);\""
+  }
+}

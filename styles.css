@@ -1,0 +1,83 @@
+/* ==========================================================================
+   DeveloperOS Canonical Design System Tokens
+   Values use CSS custom properties with resilient runtime fallbacks.
+   ========================================================================== */
+
+:root {
+  /* Branding color tokens with safe runtime fallbacks */
+  --devos-primary: #2563eb;
+  --devos-primary-hover: #1d4ed8;
+  --devos-secondary: #475569;
+  --devos-bg: #0f172a;
+  --devos-surface: #1e293b;
+  --devos-surface-border: #334155;
+  --devos-text: #f8fafc;
+  --devos-text-muted: #94a3b8;
+  --devos-accent: #38bdf8;
+  --devos-success: #22c55e;
+  --devos-warning: #f59e0b;
+  --devos-error: #ef4444;
+
+  /* Typography */
+  --devos-font-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --devos-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Spacing */
+  --devos-space-xs: 4px;
+  --devos-space-sm: 8px;
+  --devos-space-md: 16px;
+  --devos-space-lg: 24px;
+  --devos-space-xl: 32px;
+
+  /* Radii */
+  --devos-radius-sm: 4px;
+  --devos-radius-md: 8px;
+  --devos-radius-lg: 12px;
+  --devos-radius-full: 9999px;
+
+  /* Shadows */
+  --devos-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --devos-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+  --devos-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+/* Base utility classes */
+.devos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--devos-space-md);
+}
+
+.devos-card {
+  background: var(--devos-surface);
+  border: 1px solid var(--devos-surface-border);
+  border-radius: var(--devos-radius-md);
+  padding: var(--devos-space-lg);
+  box-shadow: var(--devos-shadow-md);
+}
+
+.devos-btn-primary {
+  background: var(--devos-primary);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--devos-radius-sm);
+  padding: var(--devos-space-sm) var(--devos-space-md);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease-in-out;
+}
+
+.devos-btn-primary:hover {
+  background: var(--devos-primary-hover);
+}
+
+.devos-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: var(--devos-radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: rgba(56, 189, 248, 0.15);
+  color: var(--devos-accent);
+}

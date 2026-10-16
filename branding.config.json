@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "project_name": "DeveloperOS Tools",
+  "parent_brand": "DeveloperOS",
+  "parent_website": "https://developeros.in",
+  "reference_path_variable": "DEVELOPEROS_REFERENCE_PATH",
+  "reference_path_value": "/Users/kalash/Desktop/developerOS",
+  "is_reference_configured": true,
+  "required_branding_fields": [
+    {
+      "key": "colors.primary",
+      "extracted_value": "#f97316",
+      "description": "Primary brand color in hex (Brand Orange)",
+      "target_css_var": "--devos-primary",
+      "target_streamlit_key": "theme.primaryColor"
+    },
+    {
+      "key": "colors.background",
+      "extracted_value": "#06070a",
+      "description": "Application background color in hex (Deep Canvas)",
+      "target_css_var": "--devos-bg",
+      "target_streamlit_key": "theme.backgroundColor"
+    },
+    {
+      "key": "colors.surface",
+      "extracted_value": "#0c0f15",
+      "description": "Secondary/surface background color in hex (Elev-2 Card)",
+      "target_css_var": "--devos-surface",
+      "target_streamlit_key": "theme.secondaryBackgroundColor"
+    },
+    {
+      "key": "colors.text_primary",
+      "extracted_value": "#f8fafc",
+      "description": "Primary typography text color in hex (Slate 50)",
+      "target_css_var": "--devos-text",
+      "target_streamlit_key": "theme.textColor"
+    },
+    {
+      "key": "typography.font_family_base",
+      "extracted_value": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "description": "Base font family name",
+      "target_css_var": "--devos-font-base",
+      "target_streamlit_key": "theme.font"
+    },
+    {
+      "key": "assets.logo_svg",
+      "extracted_value": "public/favicon.svg",
+      "description": "SVG code or image asset path for brand logo",
+      "target_css_var": "--devos-logo",
+      "target_streamlit_key": null
+    }
+  ],
+  "extraction_rules": {
+    "source_tokens_file": "packages/ui/src/styles/tokens.css",
+    "source_logos_file": "packages/ui/src/logos.tsx",
+    "source_svg_file": "apps/developeros/public/favicon.svg"
+  }
+}

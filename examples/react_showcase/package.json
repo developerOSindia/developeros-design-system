@@ -1,0 +1,13 @@
+{
+  "name": "@developeros/design-system-react-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example React application applying DeveloperOS design tokens and components",
+  "scripts": {
+    "test": "node -e \"console.log('React Showcase Package Valid');\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

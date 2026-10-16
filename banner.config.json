@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "brand": {
+    "name": "DeveloperOS",
+    "home_url": "https://developeros.in",
+    "tools_url": "https://tools.developeros.in",
+    "github_url": "https://github.com/developerOSindia",
+    "privacy_url": "https://developeros.in/privacy"
+  },
+  "utm": {
+    "enabled": true,
+    "source": "developeros_tools"
+  },
+  "variants": {
+    "main_promotional": {
+      "heading": "Enjoying this free tool?",
+      "description": "Discover more developer tools, AI resources, and automation solutions from DeveloperOS.",
+      "primary_cta": {
+        "text": "Explore DeveloperOS",
+        "url": "https://developeros.in",
+        "utm_campaign": "ecosystem_referral",
+        "utm_medium": "main_promotional_banner"
+      },
+      "secondary_cta": {
+        "text": "More Free Tools",
+        "url": "https://tools.developeros.in",
+        "utm_campaign": "tools_directory",
+        "utm_medium": "main_promotional_secondary"
+      }
+    },
+    "compact_header": {
+      "text": "Powered by DeveloperOS ↗",
+      "url": "https://developeros.in",
+      "utm_campaign": "powered_by",
+      "utm_medium": "compact_header_banner"
+    },
+    "footer": {
+      "tagline": "Built with ❤️ by DeveloperOS",
+      "home_url": "https://developeros.in",
+      "tools_url": "https://tools.developeros.in",
+      "github_url": "https://github.com/developerOSindia",
+      "privacy_url": "https://developeros.in/privacy",
+      "subtext": "DeveloperOS Open-Source Tools Ecosystem • Licensed under MIT • Zero-Storage Privacy Guarantee"
+    },
+    "extension_compact": {
+      "tagline": "Built with ❤️ by DeveloperOS",
+      "subtext": "Discover 100+ developer utilities & AI workflows",
+      "cta_text": "developeros.in ↗",
+      "url": "https://developeros.in",
+      "utm_source": "chrome_extension",
+      "utm_medium": "quicktools_popup",
+      "utm_campaign": "extension_referral"
+    }
+  }
+}
